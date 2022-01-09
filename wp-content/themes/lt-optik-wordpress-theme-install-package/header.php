@@ -41,7 +41,8 @@
 
 	<?php endif; ?>
 	<!-- End Top menu -->
-	<header id="masthead" class="site-header" role="banner">
+    <!--class="site-header"-->
+	<header id="masthead" role="banner">
 
 
 

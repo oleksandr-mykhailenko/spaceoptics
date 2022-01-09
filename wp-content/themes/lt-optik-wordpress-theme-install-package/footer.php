@@ -64,7 +64,7 @@
 			?>
 			<div class="site-info container">
 				<?php
-	
+
 					/**
 					 * Fires before the ltheme footer text for footer customization.
 					 *
@@ -73,7 +73,7 @@
 					do_action( 'ltheme_credits' );
 				?>
 
-			</div><!-- .site-info -->
+			</div>
 		</footer><!-- .site-footer -->
 
 <?php wp_footer(); ?>

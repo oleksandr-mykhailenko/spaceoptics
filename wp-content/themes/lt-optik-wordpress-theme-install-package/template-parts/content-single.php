@@ -16,8 +16,8 @@
 	<?php //ltheme_excerpt(); ?>
 
 	<?php ltheme_post_thumbnail(); ?>
-
-	<div class="entry-content">
+    <!--class="entry-content"-->
+	<div>
 		<?php
 			the_content();
 
@@ -38,18 +38,18 @@
 			?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-		<?php ltheme_entry_meta(); ?>
+	<!--<footer class="entry-footer">
+		<?php /*ltheme_entry_meta(); */?>
 		<?php
-			edit_post_link(
+/*			edit_post_link(
 				sprintf(
-					/* translators: %s: Name of current post */
+
 					__( 'Edit<span class="screen-reader-text"> "%s"</span>', 'ltheme' ),
 					get_the_title()
 				),
 				'<span class="edit-link">',
 				'</span>'
 			);
-			?>
-	</footer><!-- .entry-footer -->
+			*/?>
+	</footer>--><!-- .entry-footer -->
 </article><!-- #post-## -->
