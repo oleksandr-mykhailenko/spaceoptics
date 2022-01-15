@@ -34,7 +34,7 @@ get_header(); ?>
 				);
 			} elseif ( is_singular( 'post' ) ) {
 				// Previous/next post navigation.
-				the_post_navigation(
+				/*the_post_navigation(
 					array(
 						'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'ltheme' ) . '</span> ' .
 							'<span class="screen-reader-text">' . __( 'Next post:', 'ltheme' ) . '</span> ' .
@@ -43,7 +43,7 @@ get_header(); ?>
 							'<span class="screen-reader-text">' . __( 'Previous post:', 'ltheme' ) . '</span> ' .
 							'<span class="post-title">%title</span>',
 					)
-				);
+				);*/
 			}
 
 			// End of the loop.

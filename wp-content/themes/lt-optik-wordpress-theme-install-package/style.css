@@ -59,9 +59,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
  */
 
 html {
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
+	color: #fff;
 }
 
 body {
@@ -319,10 +320,29 @@ h6 {
 	font-weight: 700;
 	margin: 0;
 	text-rendering: optimizeLegibility;
+    color: #0A1A65!important;
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+h2 {
+    font-size: 36px!important;
+    color: #0A1A65!important;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif!important;
+}
+
+h3 {
+    font-size: 24px!important;
+    color: #0A1A65!important;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif!important;
 }
 
 p {
 	margin: 0 0 1.75em;
+    font-family: 'Montserrat', sans-serif!important;
+    font-weight: 400;
+    color: #4F4F4F!important;
 }
 
 dfn,
@@ -3350,7 +3370,7 @@ p > video {
 		width: 100%;
 	}
 
-	.no-sidebar .entry-header,
+/*	.no-sidebar .entry-header,
 	.no-sidebar .entry-content,
 	.no-sidebar .entry-summary,
 	.no-sidebar .entry-footer,
@@ -3363,7 +3383,8 @@ p > video {
 	.no-sidebar .content-bottom-widgets {
 		margin-right: 15%;
 		margin-left: 15%;
-	}
+	}*/
+
 
 	.widecolumn {
 		padding-right: 15%;
@@ -3959,4 +3980,110 @@ p > video {
 }
 .footer-custom-code .widget.widget_text .textwidget {
 	height: 0px !important;
+}
+
+.main-footer .footer2 ul li, .main-footer .footer3 ul li {
+    list-style: none;
+    line-height: 35px;
+    display: inline-block;
+    margin-right: 9px;
+    font-size: 18px;
+}
+
+.footer2, .footer2 p {
+    color: #fff!important;
+}
+.footer4 svg {
+    fill: #fff;
+}
+.footer4 .wp-block-social-link {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.main-footer a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.primary-menu a {
+    color: #0A1A65;
+    cursor: pointer;
+    background: transparent;
+}
+
+.primary-menu a:hover {
+    background: #eeeff4!important;
+    color: #0A1A65!important;
+
+}
+.primary-menu a:hover, .current_page_item a {
+    border-bottom: solid 3px #0A1A65!important;
+}
+.main-navigation li:hover > a, .main-navigation li.focus > a, .main-navigation li.current-menu-item > a, .main-navigation li.current-menu-parent > a {
+    background: #eeeff4!important;
+}
+
+#masthead {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+.eael-post-elements-readmore-btn {
+    color: #0A1A65!important;
+    cursor: pointer;
+}
+.eael-post-elements-readmore-btn:hover {
+    text-decoration: underline;
+}
+.eael-entry-title a {
+    color: #0A1A65!important;
+}
+.eael-entry-title:hover {
+    text-decoration: underline;
+}
+
+/* service page */
+.elementor-55 .elementor-icon {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 4%), 0px 2px 6px rgb(0 0 0 / 4%), 0px 0px 1px rgb(0 0 0 / 4%);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.elementor-55 i {
+    color: #0A1A65!important;
+    font-size: 24px!important;
+}
+
+/* main page */
+.elementor-41 .elementor-icon {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 4%), 0px 2px 6px rgb(0 0 0 / 4%), 0px 0px 1px rgb(0 0 0 / 4%);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.elementor-41 i {
+    color: #0A1A65!important;
+    font-size: 24px!important;
+}
+
+/* contact page page */
+.elementor-63 .elementor-icon {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgb(0 0 0 / 4%), 0px 2px 6px rgb(0 0 0 / 4%), 0px 0px 1px rgb(0 0 0 / 4%);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.elementor-63 i {
+    color: #0A1A65!important;
+    font-size: 24px!important;
+}
+
+.mb-0 p {
+    margin-bottom: 0px;
+}
+
+.error-404 {
+    margin-top: 30px;
 }
